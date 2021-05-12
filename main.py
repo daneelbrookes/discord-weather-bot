@@ -72,4 +72,4 @@ async def on_message(message):
             await message.channel.send(embed=discord.Embed(title='Weather in {}'.format(c.strip().title()),description=text))
 
 
-client.run('ODQyMDIyMzMzMzUwMjgxMjM2.YJvQaA.FcUhOo71_uv6a4QkKe7Fh4KFggc')
+client.run('token here')

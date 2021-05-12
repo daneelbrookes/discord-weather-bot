@@ -5,8 +5,6 @@ import asyncio
 client = discord.Client()
 wc = python_weather.Client(format=python_weather.METRIC)
 
-string = 'Leeds'
-
 PREFIX = "."
 
 @client.event
@@ -39,8 +37,6 @@ async def on_message(message):
             for forcast in weather.forecast:
 
                 index += 1
-                
-                
 
                 number_table = {
                     1:':one:',
